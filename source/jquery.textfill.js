@@ -158,7 +158,7 @@
 				if (curSize <= max) {
 					minFontPixels = fontSize;
 
-					if (curSize == max) {
+					if (curSize == max && (max == maxHeight || Opts.widthOnly)) {
 						break;
 					}
 				}
